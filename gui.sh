@@ -1,6 +1,6 @@
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 pkg install ruby figlet -y
-gem install lolcat -y
+gem install lolcat
 figlet Termux-Desktop | lolcat
 
 
