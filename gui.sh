@@ -1,8 +1,8 @@
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
-pkg install ruby -y
-pkg install figlet -y
-gem install lolcat
+pkg install ruby figlet
+gem install lolcat 
 figlet Termux-Desktop | lolcat
+
 
 printf " \e[32;1m[+] Updating packages ... \e[0m\n"
 apt update -y && apt upgrade -y
