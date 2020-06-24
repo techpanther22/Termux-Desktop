@@ -1,5 +1,6 @@
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
-pkg install ruby figlet -y
+pkg install ruby -y
+pkg install figlet -y
 gem install lolcat
 figlet Desktop v1 | lolcat
 
