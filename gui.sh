@@ -47,7 +47,7 @@ printf "\e[0m\n"
 printf "\e[0m\n"
 printf "\e[31;1m[+]  Follow the below steps to run Termux-Desktop  [+]  \e[0m\n"
 
-printf "\e[33;1m1.  Run '\e[32;1mvncserver -localhost\e[33;1m' command  \e[0m\n"
+printf "\e[33;1m1.  Run '\e[32;1mvncserver\e[33;1m' command  \e[0m\n"
 printf "\e[33;1m2.  First time, you will be prompted for setting up password:\e[0m\n"
 printf "\e[33;1m        [+]  Enter password in 'Password' and 'Verify' field and then select 'n'  [+]  \e[0m\n"
 printf "\e[33;1m3.  If everything is okay, you will see something like this message:\e[0m\n"
