@@ -11,12 +11,12 @@ apt install x11-repo -y
 printf " \e[32;1m[+] Installing tigervnc Package ... \e[0m\n"
 apt install tigervnc -y
 printf " \e[32;1m[+] Installing xfce4 Package ... \e[0m\n"
-apt install xfce4 -y
+apt install xfce xfce4 -y
 
 
 
 printf " \e[32;1mInstalling Miscellaneous Packages ... \e[0m\n"
-pkg install openbox obconf xorg-xsetroot xterm xcompmgr xfce4-settings  polybar libnl st geany thunar pcmanfm rofi feh neofetch wget curl zsh vim htop elinks mutt ranger cmus cava pulseaudio netsurf xfce4-terminal -y
+pkg install openbox obconf xorg-xsetroot xterm xcompmgr polybar libnl st geany thunar pcmanfm rofi feh neofetch wget curl zsh vim htop elinks mutt ranger cmus cava pulseaudio netsurf xfce4-terminal -y
 apt install xfce4-settings -y
 figlet FINISH | lolcat
 printf "\e[0m\n"
