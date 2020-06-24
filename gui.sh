@@ -1,7 +1,7 @@
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 pkg install ruby figlet -y
 gem install lolcat
-figlet Desktop V1.0 | lolcat
+figlet Desktop v1 | lolcat
 
 
 printf " \e[32;1m[+] Updating packages ... \e[0m\n"
