@@ -1,7 +1,7 @@
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 pkg install ruby figlet -y
 gem install lolcat
-figlet Desktop | lolcat
+figlet Desktop V1.0 | lolcat
 
 
 printf " \e[32;1m[+] Updating packages ... \e[0m\n"
@@ -13,10 +13,31 @@ apt install tigervnc -y
 printf " \e[32;1m[+] Installing xfce4 Package ... \e[0m\n"
 apt install xfce xfce4 -y
 
-
-
 printf " \e[32;1mInstalling Miscellaneous Packages ... \e[0m\n"
-pkg install openbox obconf xorg-xsetroot xterm xcompmgr polybar libnl st geany thunar pcmanfm rofi feh neofetch wget curl zsh vim htop elinks mutt ranger cmus cava pulseaudio netsurf xfce4-terminal -y
+pkg install openbox -y                   
+pkg install obconf -y
+pkg install xorg-xsetroot -y
+pkg install xterm -y
+pkg install xcompmgr -y
+pkg install libnl -y
+pkg install st -y
+pkg install geany -y
+pkg install thunar -y
+pkg install rofi -y
+pkg install feh -y
+pkg install wget -y
+pkg install curl -y
+pkg install zsh -y
+pkg install vim -y
+pkg install htop -y
+pkg install elinks -y
+pkg install mutt -y
+pkg install ranger -y
+pkg install cmus -y
+pkg install cava -y
+pkg install pulseaudio -y
+pkg install netsurf -y
+pkg install xfce4-terminal -y
 apt install xfce4-settings -y
 figlet FINISH | lolcat
 printf "\e[0m\n"
