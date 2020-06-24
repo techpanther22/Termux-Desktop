@@ -17,6 +17,7 @@ apt install xfce4 -y
 
 printf " \e[32;1mInstalling Miscellaneous Packages ... \e[0m\n"
 pkg install openbox obconf xorg-xsetroot xterm xcompmgr xfce4-settings  polybar libnl st geany thunar pcmanfm rofi feh neofetch wget curl zsh vim htop elinks mutt ranger cmus cava pulseaudio netsurf xfce4-terminal -y
+apt install xfce4-settings -y
 figlet FINISH | lolcat
 printf "\e[0m\n"
 printf "\e[32;1m[+]  Installation Complete  [+]  \e[0m\n"
