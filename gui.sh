@@ -1,3 +1,10 @@
+# techpather
+# [+]  Youtube  :  youtube.com/techpanther     [+]
+# [+]  Instagram:  instagram.com/techpanther   [+]
+# [+]  Facebook :  facebook.com/techpanther22  [+]
+# [+]  Blog     :  techpanther.in              [+]
+# [+]  github   :  github.com/techpanther22    [+]
+
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 pkg install ruby -y
 pkg install figlet -y
@@ -69,5 +76,5 @@ printf "\e[32;1m     [+]  Youtube  :  youtube.com/techpanther     [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Instagram:  instagram.com/techpanther   [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Facebook :  facebook.com/techpanther22  [+]  \e[0m\n"
 printf "\e[32;1m     [+]  Blog     :  techpanther.in              [+]  \e[0m\n"
-printf "\e[32;1m     [+]  github   :  github.com/techpanther22[+]  \e[0m\n"
+printf "\e[32;1m     [+]  github   :  github.com/techpanther22    [+]  \e[0m\n"
 figlet Techpanther | lolcat
