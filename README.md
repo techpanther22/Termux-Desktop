@@ -1,5 +1,6 @@
 # Termux-Desktop
 <b>This will help you to setup a Graphical Environment in termux using XFCE.</b>
+<b>Termux is an intractive application ion the android platform to run linux commands.</b>
 </br></br>After setting up all these things , you will see something like this.
 
 <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/techpanther22/Termux-Desktop/master/Images/Image-1.jpg"><img src="https://raw.githubusercontent.com/techpanther22/Termux-Desktop/master/Images/Image-1.jpg" alt="Image-1" style="max-width:100%;"></a>
