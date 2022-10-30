@@ -5,6 +5,8 @@
 # [+]  Blog     :  techpanther.in              [+]
 # [+]  github   :  github.com/techpanther22    [+]
 
+# Follow karo apne laundey, Gajab Gajab ki cheeze lata hai ye.
+
 printf " \e[32;1m[+] Installation Initialized ... \e[0m\n"
 pkg install ruby -y
 pkg install figlet -y
